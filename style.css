@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    padding: 0px;
+}
+.header-area{
+    background-color: #F0F2F5;
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.recent-login{
+    width: 50%;
+    float: left;
+}
+.recent-img{
+    width: 30%;
+    margin-left: -19px;
+    margin-bottom: -23px;
+    padding-top: 50px;
+}
+.recent-login h3{
+    margin-bottom: -15px;
+}
+.login-box .box1{
+    background-color: white;
+    width: 30%;
+    float: left;
+}
+.login-box .box2{
+    background-color: white;
+    width: 30%;
+    float: left;
+    overflow: hidden;
+}
+.login-box .box3{
+    background-color: white;
+    width: 30%;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.signup-area{
+    width: 50%;
+    overflow: hidden;
+}
