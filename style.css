@@ -80,13 +80,50 @@ body{
 
 
 
-
-
-
-
-
-
 .signup-area{
     width: 50%;
     overflow: hidden;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin-top: 130px;
+}
+
+.signup-area input[type="gmail"]{
+    display: block;
+    display: block;
+    border: 2px solid #D3D6D9;
+    border-radius: 5px;
+    height: 50px;
+    margin-top: 49px;
+    width: 70%;
+    font-size: 20px;
+}
+.signup-area input[type="password"]{
+    display: block;
+    display: block;
+    border: 2px solid #D3D6D9;
+    border-radius: 5px;
+    height: 50px;
+    width: 70%;
+    font-size: 20px;
+}
+.signup-area input[type="gmail"]:focus{
+    border: 1px solid rgb(7, 21, 214);
+}
+.signup-area input[type="password"]:focus{
+    border: 1px solid rgb(7, 21, 214);
+}
+.signup-area input[type="submit"]{
+    display: block;
+    display: block;
+    border: 2px solid #D3D6D9;
+    border-radius: 5px;
+    height: 50px;
+    width: 70%;
+    background-color: #1877F2;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.forgotten a{
+    display: block;
 }
